@@ -71,17 +71,4 @@ class QueryBuilder
 
         return $isReturnMap ? $data : true;
     }
-
-    public function from($node = null)
-    {
-        $this->_isProcessed = false;
-
-        if (is_null($node) || $node == '') {
-            throw new Exception("Null node exception");
-        }
-
-        $this->_node = $node;
-
-        return $this;
-    }
 }

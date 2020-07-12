@@ -87,11 +87,11 @@ video#vidFondo {
   height: 70px;
   text-align: center;
 }
-.botonField input{
+.botonField a{
   color: #648C7D;
 }
 .colContenido{
-  width: 75%;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
   align-content: space-between;
@@ -142,4 +142,20 @@ video#vidFondo {
 }
 .card-action{
   text-align: right;
+}
+
+.rs-container{
+  width: 100%;
+  padding: 3%;
+  display: inline-block;
+}
+
+.rs-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1%;
+}
+
+.mt-1{
+  margin-top: 1%;
 }
